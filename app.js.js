@@ -20,25 +20,7 @@ downBtn.addEventListener("click", () => {
     changeSlide("down")
 })
 
-/*function changeSlide(direction) {
-    if (direction === "up") {
-        activeSlideIndex++
-        if (activeSlideIndex === slidesCount) {
-            activeSlideIndex = 0
-        }
-    } else if (direction === "down") {
-        activeSlideIndex--
-        if (activeSlideIndex < 0) {
-            activeSlideIndex = slidesCount - 1
-        }
-    }
 
-    const height = container.clientHeight
-
-    mainSlide.style.transform = `translate Y (-${activeSlideIndex * height}px)`
-}
-console.log(activeSlideIndex)
-*/
 
 function changeSlide(direction) {
     if (direction === "up") {
